@@ -95,39 +95,53 @@
 
 /* Hero section related style */
 .hero{
-    max-width: 1600px;
     background-image: url('../images/hero-bg.png');
+    max-width: 1600px;
     height: 760px;
+    justify-content: center;
+    align-items: center;
+    padding: 101px 525px;
     
 }
 
 .hero-container{
-    flex-direction: column;
-    justify-content: center;
+    max-width: 550PX;
 }
 
-.hero-container img{
-    padding-bottom: 40px;
+.hero-img{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
     max-width: 350px;
+    height: 350px;
 }
+
+.hero-circle{
+    position: absolute;
+    z-index: 1;
+}
+
+.microphone{
+    position: relative;
+    z-index: 2;
+}
+
 .hero-container h1{
+    text-align: center;
     font-size:3.75rem ;
     font-weight: 800;
     color: white;
     margin-bottom: 8px;
-    text-align: center;
-
 }
 
-
 .hero-container p{
-    font-size:1rem ;
+    font-size: 1rem;
     color: white;
     margin-bottom: 24px;
     text-align: center;
 }
 
 .action-btn{
-    gap:8px;
+    gap: 10px;
     justify-content: center;
 }
