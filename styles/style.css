@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.bg-color{
     background-color: #1A0B2E;
 }
 .inter-font{
@@ -21,12 +23,48 @@
     border: none;
     border-radius:10000px;
     background: linear-gradient(25deg, rgba(247, 233, 63, 1)15%,rgba(251, 9, 180, 1)50%,rgba(145, 0, 248, 1)100%);
+    cursor: pointer;
 }
 
 .heading-text{
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 2.5rem;
+    color: white;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.margin{
+    margin: 0 auto;
+}
+
+
+
+/* navbar related style */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1600px;
+    height: 92px;
+    padding: 1rem 12.5rem;
+}
+
+.brand{
+    cursor: pointer;
+}
+.menu{
+    list-style: none;
+    gap: 2rem;
+}
+
+.menu-items{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 120%;
     color: white;
 }
 
