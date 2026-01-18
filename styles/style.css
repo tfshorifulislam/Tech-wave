@@ -24,7 +24,30 @@
     border-radius:10000px;
     background: linear-gradient(25deg, rgba(247, 233, 63, 1)15%,rgba(251, 9, 180, 1)50%,rgba(145, 0, 248, 1)100%);
     cursor: pointer;
+    align-items: center;
+    gap: 4px;
 }
+
+.secondary-btn{
+    padding: 12px 20px;
+    border: 1px solid #00FF88;
+    border-radius: 10000px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #00FF88;
+    background-color: transparent;
+    gap: 8px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.spotify-btn{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    gap: 8px;
+}
+
 
 .heading-text{
     font-size: 3rem;
@@ -68,3 +91,43 @@
     color: white;
 }
 
+
+
+/* Hero section related style */
+.hero{
+    max-width: 1600px;
+    background-image: url('../images/hero-bg.png');
+    height: 760px;
+    
+}
+
+.hero-container{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-container img{
+    padding-bottom: 40px;
+    max-width: 350px;
+}
+.hero-container h1{
+    font-size:3.75rem ;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 8px;
+    text-align: center;
+
+}
+
+
+.hero-container p{
+    font-size:1rem ;
+    color: white;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.action-btn{
+    gap:8px;
+    justify-content: center;
+}
