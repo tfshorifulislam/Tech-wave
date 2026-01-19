@@ -254,3 +254,94 @@
     color: white;
     opacity: 60%;
 }
+
+
+.episodes{
+    background-color: #1A0B2E;
+    padding: 120px 200px;
+}
+
+.episodes-container{
+    max-width: 1200px;
+}
+
+.episodes-container h2{
+    justify-content: center;
+}
+
+.episodes-iframe{
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 120px;
+    max-width: 1200px;
+    gap: 30px;
+
+}
+
+.episodes-info{
+    background-color: #250D44;
+    border-radius: 24px;
+    max-width: 380px;
+}
+
+.episodes-info iframe{
+    border-radius: 24px 24px 0 0;
+    max-width: 380px;
+}
+
+
+.episodes-info h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    margin: 24px 24px 12px 24px;
+    max-width: 332px;
+}
+
+.episodes-info p{
+    font-size: 1rem;
+    line-height: 24px;
+    color: white;
+    margin: 24px 24px 12px 24px;
+    max-width: 332px;
+    opacity: 60%;
+}
+
+.time{
+    align-items: center;
+    gap: 6px;
+}
+.time img{
+    vertical-align: middle;
+}
+
+
+.host-card{
+    background-color: rgba(53, 17, 101, 0.4);
+    padding: 40px;
+    gap: 24px;
+    border-radius: 40px;
+    align-items: center;
+}
+
+.host-info h3{
+    font-size: 2rem;
+    font-weight:700 ;
+    color: white;
+    margin-bottom: 16px;
+}
+
+
+.host-info p{
+    font-size: rem;
+    line-height: 24px;
+    color: white;
+    margin-bottom: 16px;
+    opacity: 60%;
+}
+
+.host-info-icon{
+    align-items: center; 
+    gap: 8px;
+}
+
