@@ -159,3 +159,48 @@
     gap: 10px;
     justify-content: center;
 }
+
+
+/* about related style */
+.about{
+    padding: 50px 200px 120px 200px;
+
+}
+
+.about-container{
+    max-width: 1200px;
+}
+
+.about-text{
+    text-align: center;
+    /* max-width: 1200px; */
+}
+
+.about-text-description{
+    font-size: 1rem;
+    line-height: 30px;
+    margin-bottom: 80px;
+    color: white;
+    opacity: 80%;
+    max-width: 795px;
+}
+
+.about-info{
+    justify-content: space-between;
+    text-align: center;
+}
+
+.about-info-heading{
+    color: #00FF88;
+    font-size: 3rem;
+    margin-bottom: 16px;
+    font-weight: 900;
+}
+
+.about-info-description{
+    font-size: 1rem;
+    line-height: 20px;
+    color: white;
+    opacity: 80%;
+    text-transform: uppercase;
+}
