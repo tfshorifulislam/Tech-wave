@@ -164,6 +164,7 @@
 /* about related style */
 .about{
     padding: 50px 200px 120px 200px;
+    background-color: #1A0B2E;
 
 }
 
@@ -203,4 +204,53 @@
     color: white;
     opacity: 80%;
     text-transform: uppercase;
+}
+
+
+/* choose section related style */
+
+.choose{
+    background-color: #230E3D;
+    padding: 120px 200px;
+}
+
+
+.choose-text{
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.feature-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    max-width: 1200px;
+    gap: 30px;
+    /* align-items: center; */
+}
+
+.card-info{
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-info img{
+    margin-bottom: 16px;
+}
+.card-info h3{
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+    color: white;
+    font-weight: 700;
+
+}
+
+.card-info p{
+    font-size: 1rem;
+    line-height: 24px;
+    color: white;
+    opacity: 60%;
 }
